@@ -13,33 +13,26 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.header {
-  display: flex;
-  height: 0.86rem;
-  line-height: 0.86rem;
-  background: #00bcd4;
-  color: #fff;
-
-  .header-left {
-    width: 0.64rem;
-    float: left;
-  }
-
-  .header-input {
-    flex: 1;
-    height: 0.64rem;
-    line-height: 0.64rem;
-    margin-top: 0.12rem;
-    margin-left: 0.2rem;
-    background: #fff;
-    border-radius: 0.08rem;
-    color: #ccc;
-  }
-
-  .header-right {
-    width: 1.24rem;
-    float: right;
-    text-align: center;
-  }
-}
+.header
+  display flex
+  height 0.86rem
+  line-height 0.86rem
+  background #00bcd4
+  color #fff
+  .header-left
+    width 0.64rem
+    float left
+  .header-input
+    flex 1
+    height 0.64rem
+    line-height 0.64rem
+    margin-top 0.12rem
+    margin-left 0.2rem
+    background #fff
+    border-radius 0.08rem
+    color #ccc
+  .header-right
+    width 1.24rem
+    float right
+    text-align center
 </style>
